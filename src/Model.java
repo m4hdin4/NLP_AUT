@@ -110,7 +110,7 @@ public class Model implements Serializable {
             words[i] = normalizeToModel(normalized);
             partitioned.addAll(partition(words[i]));
         }
-        analyzed = analyze(partitioned);
+        analyzed = analyze(partitioned) ;
     }
 
 }
